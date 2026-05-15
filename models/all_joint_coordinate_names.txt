@@ -1,0 +1,82 @@
+All coordinate paths in this model:
+  /jointset/groundPelvis/pelvis_tilt/value
+  /jointset/groundPelvis/pelvis_list/value
+  /jointset/groundPelvis/pelvis_rotation/value
+  /jointset/groundPelvis/pelvis_tx/value
+  /jointset/groundPelvis/pelvis_ty/value
+  /jointset/groundPelvis/pelvis_tz/value
+  /jointset/hip_l/hip_flexion_l/value
+  /jointset/hip_l/hip_adduction_l/value
+  /jointset/hip_l/hip_rotation_l/value
+  /jointset/hip_r/hip_flexion_r/value
+  /jointset/hip_r/hip_adduction_r/value
+  /jointset/hip_r/hip_rotation_r/value
+  /jointset/patellofemoral_l/knee_angle_l_beta/value
+  /jointset/patellofemoral_r/knee_angle_r_beta/value
+  /jointset/knee_l/knee_angle_l/value
+  /jointset/knee_r/knee_angle_r/value
+  /jointset/ankle_l/ankle_angle_l/value
+  /jointset/ankle_r/ankle_angle_r/value
+  /jointset/subtalar_l/subtalar_angle_l/value
+  /jointset/subtalar_r/subtalar_angle_r/value
+  /jointset/mtp_l/mtp_angle_l/value
+  /jointset/mtp_r/mtp_angle_r/value
+  /jointset/lumbar/lumbar_ext/value
+  /jointset/lumbar/lumbar_bend/value
+  /jointset/lumbar/lumbar_rota/value
+  /jointset/shoulder_r/shoulder_flexion_r/value
+  /jointset/shoulder_r/shoulder_adduction_r/value
+  /jointset/shoulder_r/shoulder_rotation_r/value
+  /jointset/elbow_r/elbow_flexion_r/value
+  /jointset/shoulder_l/shoulder_flexion_l/value
+  /jointset/shoulder_l/shoulder_adduction_l/value
+  /jointset/shoulder_l/shoulder_rotation_l/value
+  /jointset/elbow_l/elbow_flexion_l/value
+
+=== BODIES ===
+  pelvis
+  femur_l
+  femur_r
+  tibia_l
+  tibia_r
+  patella_l
+  patella_r
+  talus_l
+  talus_r
+  calcn_l
+  calcn_r
+  toes_l
+  toes_r
+  torso
+  humerus_r
+  ulna_r
+  radius_r
+  hand_r
+  humerus_l
+  ulna_l
+  radius_l
+  hand_l
+
+=== JOINTS ===
+  groundPelvis — CustomJoint
+  hip_l — CustomJoint
+  hip_r — CustomJoint
+  patellofemoral_l — CustomJoint
+  patellofemoral_r — CustomJoint
+  knee_l — PinJoint
+  knee_r — PinJoint
+  ankle_l — PinJoint
+  ankle_r — PinJoint
+  subtalar_l — PinJoint
+  subtalar_r — PinJoint
+  mtp_l — PinJoint
+  mtp_r — PinJoint
+  lumbar — CustomJoint
+  shoulder_r — CustomJoint
+  elbow_r — PinJoint
+  radioulnar_r — WeldJoint
+  wrist_r — WeldJoint
+  shoulder_l — CustomJoint
+  elbow_l — PinJoint
+  radioulnar_l — WeldJoint
+  wrist_l — WeldJoint
