@@ -4,7 +4,7 @@ import math
 def deg(num):
     return math.radians(num)
 
-def add_sword_shield(input_model_path = "base_models/model_S00.osim", output_model_path = "armed_base_models/armed_model.osim"):
+def add_sword_shield(input_model_path = "models/model_S00.osim", output_model_path = "models/armed_model.osim"):
 
     model = osim.Model(input_model_path)
 
@@ -111,8 +111,8 @@ def add_sword_shield(input_model_path = "base_models/model_S00.osim", output_mod
 
 def main():
     add_sword_shield(
-        "base_models/model_S00.osim", 
-        "armed_base_models/armed_model.osim"
+        "models/model_S00.osim", 
+        "models/armed_model.osim"
     )
 
     return

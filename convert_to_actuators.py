@@ -1,6 +1,6 @@
 import opensim as osim
 
-def convert_to_actuators(input_model_path="armed_base_models/armed_model.osim", output_model_path="torque_base_models/armed_torque_model.osim"):
+def convert_to_actuators(input_model_path="models/armed_model.osim", output_model_path="models/armed_torque_model.osim"):
 
     # Default and general optimal forces
     default_optimal_force = 300
@@ -53,8 +53,8 @@ def convert_to_actuators(input_model_path="armed_base_models/armed_model.osim", 
 
 def main():
     convert_to_actuators(
-        "armed_base_models/armed_model.osim",
-        "torque_base_models/armed_torque_model.osim"
+        "models/armed_model.osim",
+        "models/armed_torque_model.osim"
     )
 
     return
